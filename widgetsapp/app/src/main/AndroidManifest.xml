@@ -30,7 +30,8 @@
             android:label="@string/app_name" />
         <activity android:name=".ViewActivity" />
         <activity android:name=".ImageViewActivity" />
-        <activity android:name=".SeekBarActivity"></activity>
+        <activity android:name=".SeekBarActivity" />
+        <activity android:name=".RatingBarActivity"></activity>
     </application>
 
 </manifest>
