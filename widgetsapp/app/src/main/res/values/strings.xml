@@ -3,4 +3,6 @@
     <string name="btn_name">Exibir nome</string>
     <string name="btn_progress">Exibir progressBar</string>
     <string name="btn_voltar_progress">Voltar</string>
+    <string name="btn_view">Exibir view</string>
+    <string name="checkbox_view">Desabilitar view</string>
 </resources>

@@ -35,4 +35,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ProgressBarActivity.class);
         startActivity(intent);
     }
+
+    public void callView(View view) {
+        Intent intent = new Intent(this, ViewActivity.class);
+        startActivity(intent);
+    }
 }
