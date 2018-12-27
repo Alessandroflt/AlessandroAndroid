@@ -59,5 +59,24 @@
         android:onClick="callView"
         android:text="@string/btn_view" />
 
+    <Button
+        android:id="@+id/btnImageView"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="141dp"
+        android:text="Image View"
+        android:onClick="callImageView"
+        android:layout_alignLeft="@+id/button2" />
+
+    <Button
+        android:id="@+id/btnSeekBar"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnImageView"
+        android:text="SeekBar"
+        android:onClick="callSeekBar"
+        android:layout_alignLeft="@+id/button" />
+
 
 </RelativeLayout>

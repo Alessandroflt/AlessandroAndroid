@@ -40,4 +40,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ViewActivity.class);
         startActivity(intent);
     }
+
+    public void callImageView(View view) {
+        Intent intent = new Intent(this, ImageViewActivity.class);
+        startActivity(intent);
+    }
+
+    public void callSeekBar(View view) {
+        Intent intent = new Intent(this, SeekBarActivity.class);
+        startActivity(intent);
+    }
 }
