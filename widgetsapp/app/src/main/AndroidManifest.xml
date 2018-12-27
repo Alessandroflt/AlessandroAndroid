@@ -31,7 +31,8 @@
         <activity android:name=".ViewActivity" />
         <activity android:name=".ImageViewActivity" />
         <activity android:name=".SeekBarActivity" />
-        <activity android:name=".RatingBarActivity"></activity>
+        <activity android:name=".RatingBarActivity" />
+        <activity android:name=".SearchViewActivity"></activity>
     </application>
 
 </manifest>

@@ -88,5 +88,17 @@
         android:onClick="callRatingBar"
         android:layout_alignLeft="@+id/button2" />
 
+    <Button
+        android:id="@+id/btnSearch"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:onClick="callSearch"
+        android:text="Search" />
+
 
 </RelativeLayout>

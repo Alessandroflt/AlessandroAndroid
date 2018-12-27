@@ -53,4 +53,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, RatingBarActivity.class);
         startActivity(intent);
     }
+
+    public void callSearch(View view) {
+        Intent intent = new Intent(this, SearchViewActivity.class);
+        startActivity(intent);
+    }
 }
