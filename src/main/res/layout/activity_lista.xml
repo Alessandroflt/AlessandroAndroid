@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lista">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="376dp"
+        android:layout_height="506dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/Butao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="2dp"
+            android:text="Add"
+            app:layout_constraintStart_toStartOf="@+id/linearLayout"
+            app:layout_constraintTop_toTopOf="@+id/linearLayout" />
+
+        <EditText
+            android:id="@+id/Texto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="13dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Nome" />
+
+
+        <ListView
+            android:id="@+id/Lista"
+            android:layout_width="match_parent"
+            android:layout_height="75dp" />
+
+
+        <Button
+            android:id="@+id/btnimage"
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:text="imagemview" />
+
+        <Button
+            android:id="@+id/btndate"
+            android:layout_width="106dp"
+            android:layout_height="wrap_content"
+            android:text="Data" />
+
+        <Button
+            android:id="@+id/btnwebview"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="WebView" />
+
+        <Button
+            android:id="@+id/btncamera"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="camera" />
+
+        <Button
+            android:id="@+id/btnligar"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="ligar" />
+
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
